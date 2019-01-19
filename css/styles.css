@@ -1,0 +1,183 @@
+
+body{
+  font-family: 'Montserrat-Black', sans-serif;
+  text-align: center;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* containers */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* sections */
+.coloured-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+
+/* navigation bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+/* dowload button */
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+/* title */
+
+#title .container-fluid{
+  padding:3% 15% 7%;
+  text-align: left;
+}
+
+
+.big-heading{
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+
+/* title image */
+
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+
+/* features */
+
+.features-row{
+  text-align: center;
+}
+
+.fontawesome-icon{
+  color: #ef8172;
+  margin: 5% 0;
+}
+
+.fontawesome-icon:hover{
+  color: #ff4c68;
+}
+
+.features-col{
+  padding: 0 2%;
+}
+
+.feature-subtitle{
+  color: #8f8f8f;
+  margin: auto;
+  width:80%;
+}
+
+#features{
+  padding: 5% 0;
+  position: relative;
+}
+
+/* testimonials */
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* press */
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 40px;
+}
+
+/* pricing */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.card{
+  height: 25rem;
+}
+
+
+/* call to action */
+
+.cta-header{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  padding: 0 10%;
+}
+
+/* footer */
+
+.icon-footer{
+  margin: 3% 1.5%;
+}
+
+/* media query */
+
+@media (max-width:1000px) {
+
+  #title .container-fluid{
+    text-align: center;
+  }
+
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+}
